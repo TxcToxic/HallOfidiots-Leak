@@ -3,6 +3,7 @@ import pymysql
 
 client = discord.Client(intents=discord.Intents.all())
 
+
 @client.event
 async def on_ready():
     print(r"""
