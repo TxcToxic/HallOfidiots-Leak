@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hall of Idiots</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1><a class="head-link" href='https://discord.gg/86yy7s3aNE' target='_blank'>Hall of Idiots</a></h1>
+        <div class="search-bar">
+            <form>
+                <input type="text" id="search-input" placeholder="Search...">
+                <button id="search-button" onclick="searchEntry()">Search</button>
+            </form>
+        </div>
+    </div>
+    <form>
+        <label for="music-volume">Music Volume:</label>
+        <input type="range" min="0" max="100" value="100" id="music-volume">
+    </form>
+    <div class="doxes">
+        <div class="ohADox">
+            <h3>Justin Gatzkar</h3>
+            <p><span class="bold">Phone:</span> +49 1523 1059941</p>
+            <button id="justinButton" onclick="spawnJustin()">Spawn Justin</button>
+            <p id="justus-txt"></p>
+            <img id="justus" src="pics/JustinDuHS.png" width="25%" draggable="false" style="display: none;" alt="Justin Gatzkar der HS">
+        </div>
+        <div class="ohADox">
+            <h3>Gideon Fritsche</h3>
+            <p><span class="bold">Address:</span> Am Bäckerweg 1, 31535 Neustadt am Rübenberge</p>
+            <p><span class="bold">Phone:</span> +49 176 43245341</p>
+            <p><span class="bold">xBox Name:</span> MuyoBang187</p>
+            <h4 class="bold">Mom:</h4>
+            <p><span class="bold">Name:</span> Carolina Springer</p>
+            <p><span class="bold">WG:</span> Senioren WG Springer</p>
+            <p><span class="bold">Phone:</span> +49 5072 78336</p>
+        </div>
+        <div class="ohADox">
+            <h3>Thomas Gerhardt Hornauer</h3>
+            <p><span class="bold">Address:</span> Hermann-Hesse-Weg 12 Plüderhausen</p>
+            <p><span class="bold">Alias:</span> King Thomas</p>
+            <p><span class="bold">Born:</span> 3. Juli 1960 Reutlingen (63 rn)</p>
+            <p><span class="bold">Website:</span> <a href="https://www.telemedial.de/" target="_blank">telemedial.de</a></p>
+            <p><span class="bold">Family:</span> 3 Daughters</p>
+            <button id="thomasButton" onclick="spawnThomas()">Spawn Thomas</button>
+            <p id="thomas-txt"></p>
+            <img id="thomas" src="pics/ThomasDerKing.jpg" width="25%" draggable="false" style="display: none;" alt="Thomas Gerhardt Hornauer unser König">
+        </div>
+    </div>
+    <div class="bottom">
+        <p>Invented by Achmet#2921 | Co-Owner: crystal#1704 & Kowak © 2023</p>
+    </div>
+</body>
+</html>
